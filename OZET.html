@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <!-- <a> -->
+    <h2 style="color:yellow; background:rgb(170, 18, 18)"> a etiketi</h2>
+    Eğer href belirtilmemiş ise, download, hreflang, media, rel, target, ve type nitelikleri işe yaramaz. bağlantı metinleri oluşturmak için kullanılır, bağlantılar başka sayfalara geçiş için kullanılır. Bu etiketin en önemli özelliği href özelliğidir. Bu özellik ile bağlantı oluşturmak istediğimiz sayfanın URL'u belirtilir. Örneğin:  
+    <a href="google.com"></a> Google  gibi 
+ <!-- abbr -->   
+    <h2 style="color:yellow; background:rgb(109, 109, 255)">abbr etiketi</h2>
+    Bir kısaltma veya bir kısaltma tanımlar. Örneğin <abbr title="Hyper Text Transfer Protokol">HTTP</abbr> dünya çapında ağ üzerinde kullanılan bir iletişim protokolüdür.
+<!-- address-->
+    <h2 style="color:yellow; background:rgb(43, 89, 255) ">address etiketi</h2>
+    Bir belgenin yazarı / sahibinin iletişim bilgilerini tanımlar.body etiketi içerisinde <address>tanımlanırsa</address> belgenin iletişim bilgilerini belirtir. article etiketi içerisinde tanımlanırsa, o yazı için iletişim bilgilerini belirtir. adress etiketi içerisindeki metinler genellikle italik olarak gösterilir. Çoğu tarayıcı address etiketinin önüne ve sonuna satır sonu ekler.
+​
+<!-- article -->
+<h2 style="color:yellow;background:red">article etiketi</h2>
+    Makale vb. gibi uzun yazıların bir arada bulunmasını sağlar. Örneğin; herhangi bir blog sayfası veya forum sayfamız varsa, bu elementi kullanarak daha modern bir yapıya kavuşabiliriz. <article>Article etiketi</article> altında paragraf etiketleri, img etiketleri, audio ya da video etiketleri vb. etiketler ile bütün yazımızın tek bir etiket altında tutulmasını sağlayabiliriz.
+​
+<!-- b -->
+    <h2 style="color:yellow; background:rgb(221, 0, 107)">b etiketi</h2>
+    Metni <b>kalın</b> yapar.
+​
+<!-- big -->
+    <h2 style="color:yellow; background:rgb(0, 168, 42)">big etiketi</h2>
+    <big>Html big etiketi</big> büyük font ile metinleri tanımlamamız için kullanılırdı ancak html 5 standartı artık desteklemiyor. En son desteği Html 4 vermiştir. Html 5 ile kullanımdan kalkmıştır.
+​
+<!--blockquote-->
+    <h2 style="color:yellow; background:blue">blockquote etiketi</h2>
+    Başka bir kaynaktan alıntı bölüm tanımlar. <blockquote>Bu etiket,</blockquote> bir başkasına ait bilgiyi makalenizi desteklemek için alıntı yaptığınızda kullanmanız için düşünülmüş bir etikettir.
+​
+<!--body-->
+    <h2 style="color:white; background:black">body etiketi</h2>
+    Belgenin cesedini tanımlar. Yani bir HTML belgesindeki içerikler; bağlantılar, resimler, tablolar vd. bu etiket içerisinde bulunur. Ekranda görünmesini istediğinimiz her şey body kodu arasına yazılır.
+​
+    <!-- br -->
+    <h2 style="color:rgb(124, 0, 0);background:gray">br etiketi</h2>
+    Tek bir satır sonu tanımlar. <br>Arama Motoru optimizasyonlarının mutlaka istedikleri metinlerin aralarına yerleştirilen ve temelde bir satırı diğer satırdan ayırmaya yarayan bir temel etikettir. <br>“br” etiketi konulduğu noktadan itibaren diğer satırı bir diğer satırdan ayırmış olur. <br>Buna da yazıda bir alta geçme işlemi diyoruz.
+​
+<!--button-->
+    <h2 style="color:white; background:black">button etiketi</h2>
+    Tıklanabilir bir <button>düğme</button> tanımlar. İstenilirse buna bir link de tanımlayabiliriz:
+    <button onclick="window.location.href='http://www.google.com/'">Google</button>
+​
+<!--caption-->
+    <h2 style="color:bisque;background:rgb(125, 8, 71)">caption etiketi</h2>
+    Bir tablo başlığınıtanımlar. Örneğin:
+    <table border="1" width="400" align="center">
+        <caption align="bottom"></caption>
+      <tr align="center">
+          <th>Ders No</th>
+          <th>Ders</th>
+          <th>Etiket</th>
+      </tr>
+      <tr align="center">
+          <td>4</td>
+          <td>HTML5</td>
+          <td>Caption</td>
+      </tr>
+    </table>
+​
+<!--center-->
+    <h2 style="color:yellow;background:green">center etiketi</h2>
+    Metni ortalar. Örneğin:<center>Muhammet Ali SARI</center>
+​
+<!--cite-->
+    <h2 style="color:rgb(195, 255, 0); background:blue">cite</h2>
+    Bir eserin başlığını tanımlar. cite etiketi alıntı gösterme amaçlı ya da bir çalışmanın başlığını temsil etmesi için kullanılabilir. Mesela kitabın yazarını, şiirin şairi, web sitesinin sahibini gibi. Ayrıca bu etiket yazıya otomatik olarak italik özelliği kazandırmaktadır.Örneğin:
+    <p>İstanbul <cite>Fatih Sultan Mehmet</cite> tarafından fethedildi.</p>
+​
+<!--   dd   dl   dt   -->
+    <h2 style="color:white;background:black">dl   dd  dt  etiketleri</h2>
+    dl: Bir açıklama listesi tanımlar <br>
+    dd: Tanım listesinde bir öğeyi tanımlamak için kullanılır. <br>
+    dt: Bir açıklama listesinde bir terim / isim tanımlar. <br>
+    Örneğin:
+    <dl>
+​
+        <dt>Kahve</dt>
+      
+          <dd>Siyah sıcak içecek</dd>
+      
+        <dt>Süt</dt>
+      
+          <dd>Beyaz soğuk içecek</dd>
+      
+      </dl>
+​
+<!--del-->
+    <h2 style="color:yellow;background:red">del etiketi</h2>
+    Bir belgeden <del>silindi</del> metni tanımlar. Herhangi bir şeyin geçerliliğini kaybettiğini veya dikkate alınmaması gerektiğini vurgulamak için kullanılır.
+    
+<!--details-->
+      <h2 style="color:white;background:gray">details etiketi</h2>
+      Kullanıcı görüntülemek veya gizlemek ek ayrıntılar tanımlar. Sayfa içindeki uzun yazılarımızı kategorize etmek için kullanılır.
+            <details close="open">  
+        HTML<br>  
+        CSS<br> 
+        Jawa<br> 
+    </details> <p></p>
+    Not: close kısmı open olursa, sayfada açık görünür. Close olursa, kapalı görünür.<p></p>
+​
+<!--dfn-->
+    <h2 style="color:yellow;background:blue">dfn etiketi</h2>
+    dfn etiketi, HTML’de bir terimin tanımlayıcı örneğini temsil eder. dfn etiketinin en yakın ebeveyni ayrıca <dfn> içindeki </dfn>terimin tanımını / açıklamasını da içermelidir.
+    <p><dfn>HTML</dfn> Web tasarımı için kullanılan işaretleme dilidir.</p>
+​
+<!--em-->
+    <h2 style="color:white;background:green">em etiketi</h2>
+    Metnin eğik (italik) gösterilerek öneminin <em>vurgulanmasını</em> sağlar.
+​
+<!--embed-->
+    <h2 style="color:white;background:gray">embed etiketi</h2>
+    Embed etiketi bir sayfanın içerisinde ses yada video gibi multimedya içerikler eklenmesi için kullanılır. Embed kodları html5 te yerleşik olarak gelir. Kodla beraberinde genişlik yükseklik dosya konumu ve içerik türü belirtilebir. Örneğin:<br>
+    <embed src="https://www.youtube.com/embed/FNPPHEb0Sew"> 
+​
+<!--fieldset-->
+    <h2 style="color:white;background:black">fieldset etiketi</h2>
+    Form üzerinde birbirleri ile ilişkili girişler, etiketler ve diğer kontrollerin gruplandırılmasını sağlar.
+    <form>
+​
+        <fieldset>
+      
+          İsim: <input type="text"><br>
+      
+          Soyisim <input type="text">
+      
+        </fieldset>
+      
+      </form>
+​
+<!--font-->
+    <h2 style="color:white; background:red">font etiketi</h2>
+    Metin için yazı tipi, renk ve boyutunu tanımlar.
+    <font color="#990000"; font face="Arial, Garamond"; font size="5">yazı</font><p></p>
+​
+    * fontun rengi #....... olarak belirtilebildiği gibi red veya blue vs. gibi de belirtilebilir.<br>
+    * font face'deki font tipinde arial belirlenmiş görünüyor. Yanındaki Garamon ise Arial'in olmaması durumunda alternatif font olarak belirtilmiştir.<p></p>
+​
+<!--footer-->
+    <h2 style="color:rgb(25, 7, 7);background:pink">footer</h2>
+    Bir belgenin veya bölümün altbilgi tanımlar.
+​
+<!--form-->
+    <h2 style="color:white;background:gray">form</h2>
+    Kullanıcı girişi için bir HTML formu tanımlar. form etiketlerinin görevi, form etiketleri içinde bulunan html kontrolleri aracılığıyla kullanıcılardan toplanan bilgileri server'a göndermektir. Örneğin bir internet sitesindeki üyelik formunu doldurduğumuzda girdiğimiz bilgileri form nesnesi tarayıcıdan alıp server'a taşır. Örneğin: <p></p>
+​
+    <form action="google.com" method="get">
+​
+        İsim: <input type="text" name="isim">
+      
+        Soyisim: <input type="text" name="soyisim">
+      
+        <input type="submit" value="Gönder">
+      
+      </form>
+​
+<!--frame ve frameset-->
+    <h2 style="color:rgb(255, 255, 255);background:#156325">frame ve frameset etiketleri</h2>
+    Frame, HTML'de birden fazla belgeye tek bir sayfada görüntüleme için açılan iç pencerelerdir. Bu şekilde sağda farklı bir pencere ve içerik, solda farklı bir pencere ve içerik olacaktır. Genellikle bir pencere linklerin bulunduğu alan, diğer pencere ise asıl içeriğin bulunacağı alan olarak kullanılır. Çerçeve oluşturmada kullanılan etiket ise framesettir.
+​
+<!--h-->
+    <h2 style="color:white;background:blue">h etiketi</h2>
+    <h1>h1 metni</h1>
+    <h2>h2 metni</h2>
+    <h3>h3 metni</h3>
+    <h4>h4 metni</h4>
+    <h5>h5 metni</h5>
+    <h6>h6 metni</h6>
+​
+<!--head-->
+    <h2 style="color:blanchedalmond;background:orangered">head</h2>
+    Belge ile ilgili bilgiler tanımlar. Belgenin başlık kısmını tanımlar. Bu etiket içerisinde title (başlık), stiller ve meta bilgileri vs. bulunur.
+​
+    <head>
+        <title>html</title>
+    </head>
+​
+<!--header-->
+    Bir belgenin veya bölümün bir başlık tanımlar.
+    <header>
+        <h1>En Önemli Başlık</h1>
+        <h3>Daha az önemli başlık</h3>
+        <p>birşeyleri de buraya yazabiliriz</p>
+    </header>
+​
+<!--hr-->
+    <h2 style="color:antiquewhite;background:red">hr etiketi</h2>
+    Ekrana yatay çizgi çizmek için kullanılır. Bu etiketinde br etiketi gibi sonlandırıcısı /hr yoktur.<hr>
+​
+<!--i-->
+    <h2 style="color:white;background:black">i etiketi</h2>
+    Bu etiketin içeriği genellikle <i>italik</i> olarak görüntülenir. Bu etiket teknik terimler, başka bir dilden alıntı, bir düşünce vd. işaretlemek için kullanılır.
+​
+<!--iframe-->
+    <h2 style="color:yellow;background:brown">iframe etiketi</h2>
+    iframe, bir web sayfasının içerisine farklı bir web sayfasını çağırıp, görüntülememize yardımcı olan bir HTML etiketidir. Iframe etikerini kullanarak bir sayfa içerisinde başka bir web sitesini ya da başka bir web sitesinin bir sayfasının görüntülenmesi sağlanabilir.<br>
+    
+ <iframe
+        width="560"
+        height="245"
+        src="https://techproeducation.com/"
+        frameborder="0"
+        allow="autoplay;
+         encrypted-media"
+         allowfullscreen>
+    </iframe>
+​
+<!--img-->
+    <h2 style="color:yellow;background:blueviolet">img etiketi</h2>
+    img Etiketi ....
